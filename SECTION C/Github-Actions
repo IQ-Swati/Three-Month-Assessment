@@ -1,8 +1,42 @@
 THEORY: Write a GitHub Actions workflow file to build a Docker image from a Dockerfile, run tests inside the container, and push the image to Docker Hub.
 
-SOLUTION:
+SOLUTION:          Workflow File:   # Use an official lightweight Python image
+                                      FROM python:3.9-slim
+
+                                    # Set the working directory
+                                      WORKDIR /app
+
+                                    # Copy the source code
+                                      COPY . .
+
+                                    # Run a simple command
+                                      CMD ["echo", "Hello from Docker!"]
+                 
+                 Docker File:   name: Docker Build
+
+                                 on: 
+                                   push:
+                                    branches:
+                                     - main
+                                   pull_request:
+                                    branches:
+                                     - main
+
+                                 jobs:
+                                   build:
+                                     runs-on: ubuntu-latest
+
+                                     steps:
+                                       - name: Checkout repository
+                                        uses: actions/checkout@v3
+
+                                      - name: Set up Docker Build
+                                       run: docker build -t my-docker-image .
+
+
+
 
 
 LAB: Create a simple GitHub repository with a Dockerfile and the GitHub Actions workflow file. Trigger a workflow run and provide the workflow run ID.
 
-SOLUTION:
+SOLUTION:    Worklow run ID: https://github.com/IQ-Swati/docker-github-action-demo/actions/runs/13325601309
