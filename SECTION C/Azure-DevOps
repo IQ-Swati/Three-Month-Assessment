@@ -1,7 +1,12 @@
 THOERY: Outline the steps to set up a CI/CD pipeline in Azure DevOps for a Java application that includes building the code, running unit tests, and deploying to a staging environment.
 
-SOLUTION:
-
+SOLUTION:    Steps to set up a CI/CD pipeline in Azure DevOps:
+             1. Pulling the latest code from GitHub.
+             2. Installing dependencies.
+             3. Running tests.
+             4. Building the application i.e. CI Pipeline
+             5. Deploy the Application i.e. CD Pipeline
+          
 
 LAB: Set up a build pipeline in Azure DevOps that clones a Git repository, builds a simple Java application, and archives the build artifacts. Provide the URL of the Azure DevOps
 
