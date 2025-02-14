@@ -1,1 +1,8 @@
+THEORY: Write a GitHub Actions workflow file to build a Docker image from a Dockerfile, run tests inside the container, and push the image to Docker Hub.
 
+SOLUTION:
+
+
+LAB: Create a simple GitHub repository with a Dockerfile and the GitHub Actions workflow file. Trigger a workflow run and provide the workflow run ID.
+
+SOLUTION:
