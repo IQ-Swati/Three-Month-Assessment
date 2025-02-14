@@ -4,3 +4,12 @@ THEORY: Explain how you would set up a highly available and scalable web applica
 
 
 SOLUTION:
+
+
+LAB: Create and configure an S3 bucket with public read access. Upload a file to the bucket and provide the URL for access.
+
+
+SOLUTION:I have created a S3 Bucket named "my-assessment-bucket-1" attached the pdf anf mentioned the public URL for access.
+
+
+
