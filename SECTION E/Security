@@ -1,1 +1,19 @@
+Security:
 
+THEORY: Explain the best practices for securing a cloud infrastructure. Focus on IAM policies, network security, and data protection.
+
+SOLUTION:    Best Practices for Securing Cloud Infrastructure:
+             1. Grant only the minimum permissions necessary for each user or service.
+             2. Assign permissions based on roles (e.g., Developer, Admin) rather than individuals.
+             3. Enable MFA to prevent unauthorization access.
+             4. Enable cloud audit logs (Azure monitor)
+             5. Use private and public subnets.
+             6. Use bastion host or AVD for remote access.
+             7. Keep all the keys or password in Secret Management Service (Azure Key Vault)
+          
+             
+
+
+LAB: Configure a security group in AWS that only allows SSH and HTTP access. Provide the security group ID and its rules.
+
+SOLUTION: Configured the SSH --> 22 and Http --> 80 access in AWS.
