@@ -2,7 +2,7 @@ Automation:
 
 THEORY: Describe a scenario where automation significantly improved the efficiency of a deployment process. Include the tools and techniques used.
 
-SOLUTION: Whenever there is no need to o the things manually. We will switch to the autoamtion part like CI/CD Pipeline, Scripting.
+SOLUTION: Whenever there is no need to do the things manually. We will switch to the autoamtion part like CI/CD Pipeline, Scripting.
 
 
 LAB: Automate a simple deployment script using a tool of your choice (e.g., Bash, Python). Provide the script and its output.
