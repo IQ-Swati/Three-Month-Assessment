@@ -1,3 +1,5 @@
-THEORY: Explain how you would set up a highly available and scalable web application using AWS services. Include VPC, EC2, Load Balancer, Auto Scaling, and RDS in your explanation.
+AWS:
 
-SOLUTION:
+Theory: Explain how you would set up a highly available and scalable web application using AWS services. Include VPC, EC2, Load Balancer, Auto Scaling, and RDS in your explanation.
+
+Lab: Create and configure an S3 bucket with public read access. Upload a file to the bucket and provide the URL for access.
