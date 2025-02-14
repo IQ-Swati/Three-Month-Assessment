@@ -10,4 +10,4 @@ SOLUTION:    Steps to set up a CI/CD pipeline in Azure DevOps:
 
 LAB: Set up a build pipeline in Azure DevOps that clones a Git repository, builds a simple Java application, and archives the build artifacts. Provide the URL of the Azure DevOps
 
-SOLUTION:
+SOLUTION: Attached the lab pdf
