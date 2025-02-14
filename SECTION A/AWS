@@ -3,7 +3,60 @@ AWS:
 THEORY: Explain how you would set up a highly available and scalable web application using AWS services. Include VPC, EC2, Load Balancer, Auto Scaling, and RDS in your explanation.
 
 
-SOLUTION:
+SOLUTION:    # Setup VPC:
+             1. Login with AWS Credentials.
+             2. Open the AWS Console.
+             3. Search for VPC.
+             4. Click on Your Create VPC.
+             5. Enter name of the VPC.
+             6. Enter IPv4 CIDR block range for VPC which is basically a VPC address range.
+             7. Click on Create VPC.
+             8. Afer creating VPC, we need to create the subnets in the VPC.
+             9. Go to Subnet from left menu.
+            10. Click on Create Subnet.
+            11. Select VPC ID of the created VPC.
+            12. Enter subnet name, availability zone, IPv4 CIDR block range of VPC, then subnet block range and click on Create subnet.
+
+            In this way, Your VPC is Created Successfully.
+
+
+           =========================================================================================================================================
+
+          # Creating EC2:
+          1. Navigate to EC2 Instance Page.
+          2. Click on Launch Instance.
+          3. Enter  the specific name of the Instance.
+          4. Select the Machine Image (AMI), like Ubuntu.
+          5. Select Architecture- 64-bit, Instance type- configurations.
+          6. Create Key pair name for login, if exists then we dont need to create any key-pair.
+          7. Select Network settings for EC2 instance.
+          8. Check for other settings as per requirement, and click on Launch Instance.
+          9. After instance is created, check for Public IP, and extract password from .pem file and you can login into instance successfully.
+
+          In this way we have successfully created the EC2 machine.
+
+
+         ==============================================================================================================================================
+
+        # Creating RDS Instance-
+        1. Open AWS Console.
+        2. Go to AWS RDS.
+        3. Click On Create Database.
+        4. Select Database type - MySQL or Postgresql or any other.
+        5. Chose Template- Dev or Production.
+        6. Enter Database name.
+        7. Create master user and password.
+        8. Choose Netwoking and other additional options.
+        9. Create Database.
+       10. Download application to access database.
+       11. Go to database dashboard in AWS.
+       12. Make note of endpoint & port.
+       13. Check for the allowed IP in Security Groups.
+       14. Go back to application such as DBeaver.
+       15. Enter Endpoint of database, port, username and password, and you can use the database.
+
+       In this we have successfully created the Database in AWS.
+
 
 
 LAB: Create and configure an S3 bucket with public read access. Upload a file to the bucket and provide the URL for access.
