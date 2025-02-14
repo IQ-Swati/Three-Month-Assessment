@@ -1,1 +1,8 @@
+THEORY: Describe the process of setting up a virtual network in Azure and connecting it to an on-premises network using a VPN Gateway.
 
+SOLUTION:
+
+
+LAB: Create an Azure Virtual Machine (VM) using the Azure CLI. Ensure the VM has SSH access and install Apache on it.
+
+SOLUTION:
