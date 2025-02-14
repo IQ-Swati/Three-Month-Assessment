@@ -2,7 +2,15 @@ Incident Response:
 
 THEORY: Outline your approach to handling a critical incident in a production environment. Include steps for initial response, investigation, resolution, and post-incident review.
 
-SOLUTION:
+SOLUTION:          The process involves four stages:
+                   1. Initial Response (Detect the issue)
+                    --> Acknowledge the Incident (Azure alert tool)
+                   2. Investigation
+                    --> Gather logs and metrices (Application Insights)
+                   3. Resolution
+                    --> Find the root cause and resolve it.
+                   4. Post-incident Review
+                    --> Make a Cause-effect diagram with proper documentation for future use.
 
 
 LAB: Simulate a simple incident (e.g., service down) and provide a step-by-step log of your incident response actions.
