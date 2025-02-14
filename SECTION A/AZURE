@@ -1,8 +1,21 @@
 THEORY: Describe the process of setting up a virtual network in Azure and connecting it to an on-premises network using a VPN Gateway.
 
-SOLUTION:
+SOLUTION:      Create virtual network gateway
+                  |-- Create vnet (10.0.0.0/16)
+                  |-- Create default subnet (10.0.0.0/24)
+                  |-- Create gateway-subnet (10.0.1.0/28)
+                  |-- Create Public IP
+               Create local network gateway
+                  |-- put public Ip address of your local system in local network gateway
+                  |-- put private ip of your local device having 32 cidr (ipconfig)
+               Create connections ( for connecting the Virtual network gateway and Local Network Gateway)
+               Check the provisioning state of connections and virtual network gateway
+               Create VM --> get the Public IP Address of VM 
+               Connect with the rdp with public IP --> check with ip config
+
+
 
 
 LAB: Create an Azure Virtual Machine (VM) using the Azure CLI. Ensure the VM has SSH access and install Apache on it.
 
-SOLUTION:
+SOLUTION:     I have created VM using CLI, provided the ssh access and installed appache server on it.
