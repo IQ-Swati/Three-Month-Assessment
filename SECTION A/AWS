@@ -9,7 +9,8 @@ SOLUTION:
 LAB: Create and configure an S3 bucket with public read access. Upload a file to the bucket and provide the URL for access.
 
 
-SOLUTION:I have created a S3 Bucket named "my-assessment-bucket-1" attached the pdf anf mentioned the public URL for access.
+SOLUTION:   I have created a S3 Bucket named "my-assessment-bucket-1" attached the pdf anf mentioned the public URL for access.
+            Public URL: https://my-assessment-bucket-1.s3.us-east-1.amazonaws.com/GENERATING+CSR.pdf
 
 
 
