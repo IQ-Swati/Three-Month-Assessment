@@ -1,1 +1,9 @@
+THEORY: Write a docker-compose.yml file to set up a multi-container application with a web server (Nginx) and a database (MySQL).
+
+SOLUTION:
+
+
+LAB: Run the docker-compose setup and provide the output of docker-compose ps.
+
+SOLUTION:
 
