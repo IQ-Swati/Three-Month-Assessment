@@ -1,1 +1,10 @@
+Docker:
 
+THEORY: Write a Dockerfile for a Node.js application that installs dependencies, copies the application code, and starts the application using npm start.
+
+SOLUTION:
+
+
+LAB: Build and run the Docker image locally. Provide the Docker image ID and a screenshot of the running container.
+
+SOLUTION:
