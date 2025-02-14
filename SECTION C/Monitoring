@@ -1,1 +1,24 @@
+Monitoring CI/CD Pipelines:
 
+
+THOERY: Explain how you would implement monitoring and alerting for a CI/CD pipeline to ensure timely notification of failures and performance issues.
+
+SOLUTION: 
+
+STEPS TO INTEGRATE AZURE DEVOPS ALERTING TOOLS:
+1. Login to Azure Devops with credentials.
+2. Go to project settings.
+3. Under the General tab, navigate to notifications tab.
+4. Configure Delivery settings and the email address.
+5. Click on save.
+6. Now add new subscription.
+7. Fill all the details: Description, subscription, Deliver to, Address, Filter criteria.
+8. Click on finished.
+9. Whenever under the specified project, any pipeline runs and its status is failed then we would received a mail nitification.
+
+
+
+
+LAB: Integrate Azure DevOps with an alerting tool (e.g., Slack or email) to send notifications on build failures. Provide a screenshot of a notification received.
+
+SOLUTION: Attached the PDF.
